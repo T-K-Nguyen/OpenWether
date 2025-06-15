@@ -67,6 +67,8 @@ Public Class Form1
                            $"Wind Speed: {windSpeed:F1} m/s"
         resultLabel.Text = textToDisplay
         resultPanel.Visible = True
+        Dim pIcon = DirectCast(resultPanel.Controls("pic"), PictureBox)
+        SetWeatherIcon(pIcon, description)
 
         ' Hardcoded 7-day forecast data (June 15-21, 2025)
         'Dim days() As String = {"Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"}
