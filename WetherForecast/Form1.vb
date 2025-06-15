@@ -11,6 +11,8 @@ Public Class Form1
 
     Public Sub New()
         InitializeComponent()
+        SetStyle(ControlStyles.SupportsTransparentBackColor, True)
+        Me.BackColor = Color.Transparent
     End Sub
 
     Private Async Sub SearchButton_Click(sender As Object, e As EventArgs) Handles searchButton.Click
@@ -98,29 +100,25 @@ Public Class Form1
 
     Private Sub SetWeatherIcon(picBox As PictureBox, description As String)
         Try
-            Dim iconImage As Image = Nothing
             Select Case description.ToLower()
                 Case "sunny", "clear"
-                    iconImage = My.Resources.clear.ToBitmap() ' Convert Icon to Bitmap
+                    picBox.Image = My.Resources.clear
                 Case "cloudy", "partly cloudy"
-                    iconImage = My.Resources.clouds.ToBitmap()
+                    picBox.Image = My.Resources.cloudy
                 Case "rain"
-                    iconImage = My.Resources.rain.ToBitmap()
+                    picBox.Image = My.Resources.rain
                 Case "thunderstorm"
-                    iconImage = My.Resources.thunder.ToBitmap()
+                    picBox.Image = My.Resources.thunder
                 Case "snow"
-                    iconImage = My.Resources.snow.ToBitmap()
+                    picBox.Image = My.Resources.snow
                 Case Else
-                    iconImage = My.Resources._default.ToBitmap()
+                    picBox.Image = My.Resources.clear
             End Select
-            If iconImage IsNot Nothing Then
-                picBox.Image = iconImage
-                picBox.SizeMode = PictureBoxSizeMode.Zoom
-                picBox.BackColor = Color.Transparent
-            End If
+            picBox.SizeMode = PictureBoxSizeMode.Zoom ' Use Zoom to scale icon
+            picBox.BackColor = Color.Transparent ' Ensure no background color
         Catch ex As Exception
-            MessageBox.Show($"Error loading icon: {ex.Message}. Ensure .ico resources are valid.", "Error")
-            picBox.Image = Nothing
+            MessageBox.Show($"Error loading icon: {ex.Message}", "Error")
+            picBox.Image = Nothing ' Clear image to avoid crash
         End Try
     End Sub
 

@@ -178,12 +178,6 @@
     <None Include="Resources\clear.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\thunder.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\snow.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\rain.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -209,6 +203,24 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\thunder.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cloudy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BACKGROUND.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

@@ -32,19 +32,19 @@ WetherForecast
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:WetherForecast.My.Resources.Resources._default">
+<member name="P:WetherForecast.My.Resources.Resources.BACKGROUND">
 <summary>
-  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:WetherForecast.My.Resources.Resources.clear">
 <summary>
-  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
-<member name="P:WetherForecast.My.Resources.Resources.clouds">
+<member name="P:WetherForecast.My.Resources.Resources.cloudy">
 <summary>
-  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:WetherForecast.My.Resources.Resources.friday">
@@ -59,7 +59,7 @@ WetherForecast
 </member>
 <member name="P:WetherForecast.My.Resources.Resources.rain">
 <summary>
-  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:WetherForecast.My.Resources.Resources.saturday">
@@ -69,7 +69,7 @@ WetherForecast
 </member>
 <member name="P:WetherForecast.My.Resources.Resources.snow">
 <summary>
-  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:WetherForecast.My.Resources.Resources.sunday">
@@ -79,7 +79,7 @@ WetherForecast
 </member>
 <member name="P:WetherForecast.My.Resources.Resources.thunder">
 <summary>
-  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+  Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
 <member name="P:WetherForecast.My.Resources.Resources.thursday">

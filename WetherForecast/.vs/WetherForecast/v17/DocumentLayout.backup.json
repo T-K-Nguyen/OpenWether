@@ -7,7 +7,7 @@
       "RelativeMoniker": "D:0:0:{0B4054CB-1F0E-4879-BED3-C0F31EF85B9C}|WetherForecast.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0B4054CB-1F0E-4879-BED3-C0F31EF85B9C}|WetherForecast.vbproj|c:\\works\\internship\\wetherforecast\\wetherforecast\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "AbsoluteMoniker": "D:0:0:{0B4054CB-1F0E-4879-BED3-C0F31EF85B9C}|WetherForecast.vbproj|C:\\WORKS\\Internship\\WetherForecast\\WetherForecast\\form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
       "RelativeMoniker": "D:0:0:{0B4054CB-1F0E-4879-BED3-C0F31EF85B9C}|WetherForecast.vbproj|solutionrelative:form1.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
     },
     {
@@ -41,8 +41,8 @@
               "Title": "WetherForecast",
               "DocumentMoniker": "C:\\WORKS\\Internship\\WetherForecast\\WetherForecast\\WetherForecast.vbproj",
               "RelativeDocumentMoniker": "WetherForecast.vbproj",
-              "ToolTip": "C:\\WORKS\\Internship\\WetherForecast\\WetherForecast\\WetherForecast.vbproj",
-              "RelativeToolTip": "WetherForecast.vbproj",
+              "ToolTip": "C:\\WORKS\\Internship\\WetherForecast\\WetherForecast\\WetherForecast.vbproj*",
+              "RelativeToolTip": "WetherForecast.vbproj*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-06-14T15:12:52.48Z",
               "EditorCaption": ""
@@ -53,9 +53,9 @@
               "Title": "Form1.vb",
               "DocumentMoniker": "C:\\WORKS\\Internship\\WetherForecast\\WetherForecast\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\WORKS\\Internship\\WetherForecast\\WetherForecast\\Form1.vb*",
-              "RelativeToolTip": "Form1.vb*",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAiwGcAAABSAAAAAAAAAA==",
+              "ToolTip": "C:\\WORKS\\Internship\\WetherForecast\\WetherForecast\\Form1.vb",
+              "RelativeToolTip": "Form1.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-06-14T13:47:20.3Z",
               "EditorCaption": ""
@@ -66,8 +66,8 @@
               "Title": "Form1.vb [Design]",
               "DocumentMoniker": "C:\\WORKS\\Internship\\WetherForecast\\WetherForecast\\Form1.vb",
               "RelativeDocumentMoniker": "Form1.vb",
-              "ToolTip": "C:\\WORKS\\Internship\\WetherForecast\\WetherForecast\\Form1.vb [Design]*",
-              "RelativeToolTip": "Form1.vb [Design]*",
+              "ToolTip": "C:\\WORKS\\Internship\\WetherForecast\\WetherForecast\\Form1.vb [Design]",
+              "RelativeToolTip": "Form1.vb [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
               "WhenOpened": "2025-06-14T13:36:33.554Z",
               "EditorCaption": " [Design]"
