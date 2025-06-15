@@ -48,10 +48,19 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Guna.UI2, Version=2.0.4.7, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>packages\Guna.UI2.WinForms.2.0.4.7\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.Design" />
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Core" />
@@ -97,6 +106,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
@@ -115,6 +127,88 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Connected Services\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thesun.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\TheSun %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 DAY FORECAST.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7 DAY FORECAST %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\today.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\saturday.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\friday.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thursday.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wednesday.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tuesday.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\monday.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sunday.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clouds.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clouds.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rain.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clear.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\default.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\snow.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\thunder.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
 </Project>

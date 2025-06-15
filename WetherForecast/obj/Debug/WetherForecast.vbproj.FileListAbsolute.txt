@@ -1,0 +1,17 @@
+C:\WORKS\Internship\WetherForecast\WetherForecast\bin\Debug\WetherForecast.exe.config
+C:\WORKS\Internship\WetherForecast\WetherForecast\bin\Debug\WetherForecast.exe
+C:\WORKS\Internship\WetherForecast\WetherForecast\bin\Debug\WetherForecast.pdb
+C:\WORKS\Internship\WetherForecast\WetherForecast\bin\Debug\WetherForecast.xml
+C:\WORKS\Internship\WetherForecast\WetherForecast\bin\Debug\Newtonsoft.Json.dll
+C:\WORKS\Internship\WetherForecast\WetherForecast\bin\Debug\Newtonsoft.Json.xml
+C:\WORKS\Internship\WetherForecast\WetherForecast\obj\Debug\WetherForecast.vbproj.AssemblyReference.cache
+C:\WORKS\Internship\WetherForecast\WetherForecast\obj\Debug\WetherForecast.Form1.resources
+C:\WORKS\Internship\WetherForecast\WetherForecast\obj\Debug\WetherForecast.Resources.resources
+C:\WORKS\Internship\WetherForecast\WetherForecast\obj\Debug\WetherForecast.vbproj.GenerateResource.cache
+C:\WORKS\Internship\WetherForecast\WetherForecast\obj\Debug\WetherForecast.vbproj.CoreCompileInputs.cache
+C:\WORKS\Internship\WetherForecast\WetherForecast\obj\Debug\WetherFo.B318012D.Up2Date
+C:\WORKS\Internship\WetherForecast\WetherForecast\obj\Debug\WetherForecast.exe
+C:\WORKS\Internship\WetherForecast\WetherForecast\obj\Debug\WetherForecast.xml
+C:\WORKS\Internship\WetherForecast\WetherForecast\obj\Debug\WetherForecast.pdb
+C:\WORKS\Internship\WetherForecast\WetherForecast\obj\Debug\WetherForecast.exe.config
+C:\WORKS\Internship\WetherForecast\WetherForecast\bin\Debug\Guna.UI2.dll
